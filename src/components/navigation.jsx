@@ -1,49 +1,47 @@
 export const Navigation = (props) => {
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
-        <div className='navbar-header'>
-          <button
-            type='button'
-            className='navbar-toggle collapsed'
-            data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
-          >
-            {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-          </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            theSuperExams
-          </a>{' '}
+    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      <div className="container">
+        <div className="navbar-header">
+          <div className="row" style={{alignItems: 'center'}}>
+            <button
+              type="button"
+              className="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              {" "}
+              <span className="sr-only">Toggle navigation</span>{" "}
+              <span className="icon-bar"></span>{" "}
+              <span className="icon-bar"></span>{" "}
+              <span className="icon-bar"></span>{" "}
+            </button>
+            <a className="navbar-brand page-scroll" href="#page-top">
+              <img src="assets/TheSuperExam.svg" />
+            </a>
+          </div>
         </div>
 
         <div
-          className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
+          className="collapse navbar-collapse"
+          id="bs-example-navbar-collapse-1"
         >
-          <ul className='nav navbar-nav navbar-right'>
+          <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href='' className='page-scroll'>
+              <a href="" className="page-scroll">
                 For students
               </a>
             </li>
             <li>
-              <a href='' className='page-scroll'>
+              <a href="" className="page-scroll">
                 For institutes
               </a>
             </li>
             <li>
-              <button className='ghost-button'>
-                Login
-              </button>
+              <button className="ghost-button">Login</button>
             </li>
             <li>
-              <button className='outline-button'>
-                Signup
-              </button>
+              <button className="outline-button">Signup</button>
             </li>
             {/* <li>
               <a href='#services' className='page-scroll'>
@@ -74,5 +72,5 @@ export const Navigation = (props) => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
