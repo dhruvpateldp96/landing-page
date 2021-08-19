@@ -1,6 +1,8 @@
-export const Services = (props) => {
+export const Offerings = ({data, institute, student}) => {
   return (
-    <div id='services' className='text-center'>
+    <div 
+        id='offerings' 
+        className={`text-center ${student? 'student' : ''} ${institute ? 'institute': ''} color-change-2x`}>
       <div className='container'>
         <div className='row'>
         <div className='col-md-12 section-title'>
@@ -15,8 +17,8 @@ export const Services = (props) => {
           </div>
         </div>
         <div className='row-dp'>
-          {props.data
-            ? props.data.map((d, i) => (
+          {data
+            ? data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4-dp card'>
                   {' '}
                   {/* <i className={d.icon}></i> */}

@@ -7,9 +7,12 @@
 
 :root {
   --primary-color: #2a9d8f;
+  --secondary-color: #F97958;
   --dark-color: #0f1f2a;
   --light-gray-color: #f6f8fc;
-  --light-peach-color: #FFF8F6;
+  --light-peach-color: #F979581F;
+  --light-green-color: #2A9D8F1F;
+
   --light-gray-blue-color: #27364B;
 
   --font-size-regular: 14px;

@@ -28,46 +28,11 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="" className="page-scroll">
-                For students
-              </a>
-            </li>
-            <li>
-              <a href="" className="page-scroll">
-                For institutes
-              </a>
-            </li>
-            <li>
               <button className="ghost-button">Login</button>
             </li>
             <li>
               <button className="outline-button">Signup</button>
             </li>
-            {/* <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
-            </li>
-            <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>

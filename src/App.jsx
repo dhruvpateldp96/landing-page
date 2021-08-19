@@ -3,7 +3,7 @@ import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
-import { Services } from "./components/services";
+import { Offerings } from "./components/offerings";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
@@ -12,6 +12,7 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Pricing } from "./components/pricing";
+import { ComponentsEnum, renderMap } from "./utils";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -20,6 +21,14 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  const [isStudent, setIsStudent] = useState(true);
+  const [activeComponent, setActiveComponent] = useState(
+    [ComponentsEnum.InstituteComponent]
+  )
+  const changeState = (component) => (
+    setActiveComponent(component)
+  )
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
@@ -28,12 +37,12 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
+      {renderMap({ landingPageData, changeState })[activeComponent]}
+      {/* <Features data={landingPageData.Features}/>
+      <Offerings data={landingPageData.Offerings} />
 
-      <About data={landingPageData.About} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Pricing data={landingPageData.Team}/>
+      <Testimonials data={landingPageData.Testimonials} /> */}
+      {/* <Pricing data={landingPageData.Team}/> */}
       <Contact data={landingPageData.Contact} />
     </div>
   );

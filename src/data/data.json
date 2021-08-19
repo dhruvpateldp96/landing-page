@@ -19,38 +19,72 @@
       "Prepare yourself for exams"
     ]
   },
-  "Services": [
-    {
-      "icon": "assets/Class6.svg",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "assets/JeeMain.svg",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "assets/JeeAdvance.svg",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "assets/Neet.svg",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "assets/Upsc.svg",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "assets/Feature-doc.svg",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
+  "Offerings": {
+    "Student": [
+      {
+        "icon": "assets/Class6.svg",
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/JeeMain.svg",
+        "name": "Consectetur adipiscing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/JeeAdvance.svg",
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/Neet.svg",
+        "name": "Consectetur adipiscing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/Upsc.svg",
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/Feature-doc.svg",
+        "name": "Consectetur adipiscing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      }
+    ],
+    "Institute": [
+      {
+        "icon": "assets/Class6.svg",
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/JeeMain.svg",
+        "name": "Consectetur adipiscing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/JeeAdvance.svg",
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/Neet.svg",
+        "name": "Consectetur adipiscing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/Upsc.svg",
+        "name": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      },
+      {
+        "icon": "assets/Feature-doc.svg",
+        "name": "Consectetur adipiscing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      }
+    ]
+  },
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -84,7 +118,6 @@
     }
   ],
   "Team": [
-    
     {
       "img": "img/team/03.jpg",
       "name": "Jane Doe",
@@ -105,33 +138,45 @@
     "youtube": "youtube.com"
   },
   "Features": {
-    "content": "We provide institutes with a one-stop-solution for all their online testing needs, to make their testing experience with their students extremely seamless.",
-    "cards": [
-      {
-        "icon": "assets/Feature-Computer.svg",
-        "title": "Conduct online tests",
-        "text": "Assign students, finalise the timings and your test is created."
-      },
-      {
-        "icon": "assets/Feature-bulb.svg",
-        "title": "Ready-made mock tests",
-        "text": "We provide ready-made mock tests based on the competitive exams which you can directly assign to your students. Easy!"
-      },
-      {
-        "icon": "assets/Feature-doc.svg",
-        "title": "Ready-made mock tests",
-        "text": "We provide ready-made mock tests based on the competitive exams which you can directly assign to your students. Easy!"
-      },
-      {
-        "icon": "assets/Feature-doc.svg",
-        "title": "Web & Android App",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-      },
-      {
-        "icon": "assets/Feature-doc.svg",
-        "title": "Cheatproof Testing",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-      }
-    ]
+    "Institute": {
+      "content": "We provide institutes with a one-stop-solution for all their online testing needs, to make their testing experience with their students extremely seamless.",
+      "cards": [
+        {
+          "icon": "assets/Calendar.svg",
+          "title": "Conduct online tests",
+          "text": "Assign students, finalise the timings and your test is created."
+        },
+        {
+          "icon": "assets/Share.svg",
+          "title": "Ready-made mock tests",
+          "text": "We provide ready-made mock tests based on the competitive exams which you can directly assign to your students. Easy!"
+        },
+        {
+          "icon": "assets/Pi.svg",
+          "title": "Ready-made mock tests",
+          "text": "We provide ready-made mock tests based on the competitive exams which you can directly assign to your students. Easy!"
+        }
+      ]
+    },
+    "Student": {
+      "content": "We provide institutes with a one-stop-solution for all their online testing needs, to make their testing experience with their students extremely seamless.",
+      "cards": [
+        {
+          "icon": "assets/Click.svg",
+          "title": "Conduct online tests",
+          "text": "Assign students, finalise the timings and your test is created."
+        },
+        {
+          "icon": "assets/PC.svg",
+          "title": "Ready-made mock tests",
+          "text": "We provide ready-made mock tests based on the competitive exams which you can directly assign to your students. Easy!"
+        },
+        {
+          "icon": "assets/ProjectBoard.svg",
+          "title": "Ready-made mock tests",
+          "text": "We provide ready-made mock tests based on the competitive exams which you can directly assign to your students. Easy!"
+        }
+      ]
+    }
   }
 }
