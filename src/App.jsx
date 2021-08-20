@@ -38,11 +38,6 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       {renderMap({ landingPageData, changeState })[activeComponent]}
-      {/* <Features data={landingPageData.Features}/>
-      <Offerings data={landingPageData.Offerings} />
-
-      <Testimonials data={landingPageData.Testimonials} /> */}
-      {/* <Pricing data={landingPageData.Team}/> */}
       <Contact data={landingPageData.Contact} />
     </div>
   );

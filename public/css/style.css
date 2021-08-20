@@ -225,8 +225,8 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
-  width: 100%;
+  /* display: table; */
+  width: auto;
   padding: 0;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
