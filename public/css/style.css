@@ -86,6 +86,9 @@ hr {
   font-weight: 800;
   color: var(--primary-color);
 }
+
+
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   color: #555;
@@ -753,15 +756,19 @@ label {
 .col-md-4-dp {
   width: 31%;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .col-md-4-dp {
     width: 100%;
   }
-}
+} */
 .row-dp {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 40px;
+}
+
+.slider-controls {
+  display: none;
 }
 /* li span {
   vertical-align:middle;

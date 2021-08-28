@@ -8,8 +8,10 @@ export const Features = ({ data, changeState }) => {
     >
       {" "}
       <img src={icon} />
+      <div className="CardNonIconContent">
       <h3>{title}</h3>
       <p>{text}</p>
+      </div>
     </div>
   );
 
@@ -21,7 +23,7 @@ export const Features = ({ data, changeState }) => {
             <div className="container">
               <div className="col-md-12 col-sm-12 section-title">
                 <button
-                  className="toggle-button-green"
+                  className="toggle-button-green col-xs-5"
                   onClick={() =>
                     changeState([ComponentsEnum.InstituteComponent])
                   }
@@ -29,7 +31,7 @@ export const Features = ({ data, changeState }) => {
                   For Institutes
                 </button>
                 <button
-                  className="toggle-button-orange"
+                  className="toggle-button-orange col-xs-5"
                   onClick={() => changeState([ComponentsEnum.StudentComponent])}
                 >
                   For Students

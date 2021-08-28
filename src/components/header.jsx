@@ -10,7 +10,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                  <div className='col-md-7 header-button-container'>
+                  <div className='col-md-7 col-xs-12 header-button-container'>
                     <button className='normal-button'>
                       Start your 7 days free trial
                     </button>

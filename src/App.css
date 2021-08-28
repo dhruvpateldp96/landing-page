@@ -27,4 +27,100 @@
     display: block;
     width: auto;
   }
+  
+  .navbar-brand > img {
+    display: block;
+    width: 200px;
+  }
+  .intro p {
+    display: none;
+  }
+
+  .header-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .normal-button {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  #header h1 {
+    font-size: 30px;
+    margin-bottom: 3rem;
+  }
+
+  .outline-button {
+    font-size: 10px;
+  }
+
+  .toggle-button-orange {
+    font-size: 10px;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+  }
+
+  .toggle-button-green {
+    font-size: 10px;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+  }
+
+  .features-arrow {
+    display: none;
+  }
+
+  .card-content{
+    display: flex;
+  }
+
+  .CardNonIconContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .section-title h2 {
+    font-size: 32px !important;
+  }
+
+  .section-title {
+    margin-bottom: 3rem;
+  }
+
+  .section-content p {
+    font-size: 20px;
+  }
+
+  .card-content img {
+    width: 7rem;
+    padding-right: 2rem;
+  }
+
+  
+
+  /* Slider Controls*/
+  .slider-controls {
+    margin-top: 1rem;
+    display: block;
+  }
+
+  .slider-controls a {
+    margin: 1rem;
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  /* Sldier Controls End */
+
+  /* Sldier */
+  .col-md-4-dp {
+    width: 100%;
+  }
+
+  /* Slider End */
 }
